@@ -5,7 +5,40 @@
 
 }
 body{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background: #ffffff;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background: #8c6e96;
     display: flex;
+}
+footer .left{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+}
+footer .left ul{
+    list-style-type: none;  display: flex;
+}
+footer .left li a {
+    background: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
     align-items: center;
+    display: flex;
     justify-content: center;
+    text-decoration: none;
+    margin: 3px;
+    color: #8c6e96;
+    transition: all .5s;
+
+}
+footer .left li a:hover{
+    background: #8c6e96;
+    color: #fff;
 }
